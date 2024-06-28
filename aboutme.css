@@ -1,0 +1,18 @@
+.about_me {
+
+}
+.header {
+    border: 5px solid black;
+    border-color: #3e362e;
+    border-style: dashed;
+    
+}
+.text_a {
+    background-image: url("images.portfolio/random.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    text-align: center;
+    font: ;
+    color: white; 
+}

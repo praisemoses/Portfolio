@@ -1,0 +1,9 @@
+.contact {
+    width: 100%;
+    height: auto;
+    background-color: #ac8968;
+    border-top: 1px #3e362e;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    justify-content: center;
+}

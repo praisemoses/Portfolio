@@ -1,0 +1,92 @@
+.my_works {
+    backdrop-filter: blur(5px);
+    -webkit-text-fill-color: inherit;
+    background-color: #ac8968;
+    background-image: none;
+    background-size: auto;
+    background-clip: border-box;
+    flex-flow: column;
+    justify-content: space-between;
+    display: flex;
+    overflow: visible;
+}
+.game {
+    -webkit-text-fill-color: inherit;
+    background-color: #a69080;
+    background: url("images.portfolio/Projects/Final Days.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-clip: border-box;
+    flex: 1;
+    display: block;
+    width: 100%;
+}
+.game-section {
+    height: 100vh;
+    object-fit: fill;
+    background-color: #3e362e;
+    opacity: .8;
+    display: block;
+    justify-content: left;
+    width: 50%;
+    float: right;
+}
+.game-text {
+    z-index: 20;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    color: white; 
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.game-bcg {
+    height: 95x;
+    object-fit: fill;
+    background-color: rgba(255, 253, 253, 0);
+    display: block;
+    width: 50%;
+    justify-content: right;
+}
+.WFC {
+    -webkit-text-fill-color: inherit;
+    background-color: #a69080;
+    background: url("images.portfolio/Projects/Gun violence.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-clip: border-box;
+    flex: 1;
+    display: block;
+    width: 100%;
+}
+.WFC-section {
+    height: 100vh;
+    object-fit: fill;
+    background-color: #3e362e;
+    opacity: .8;
+    display: block;
+    float: left;
+    justify-content: left;
+    width: 50%;
+}
+.WFC-text {
+    z-index: 20;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    color: white 
+}
+.WFC-bcg {
+    height: 50px;
+    object-fit: fill;
+    background-color: rgba(255, 253, 253, 0);
+    display: block;
+    width: 50%;
+    justify-content: right;
+}

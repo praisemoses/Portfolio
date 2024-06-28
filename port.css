@@ -1,0 +1,100 @@
+.logo {
+    height: 50px;
+    background-color: #3e362e;
+    height: 50px;
+    margin-left: 0;
+}
+.PM {
+    position: absolute;
+    left: 5%;
+    margin: 0;
+    padding-top: 1%;
+    font-size: 40px;
+    color: white;
+    background-color: transparent;
+    top: 0;
+    
+}
+.LP {
+    border: 1px solid  transparent;
+    border-color: #3e362e;
+    border-width: 0 0 1px;
+    top: 0;
+}
+ul {
+    position: absolute;
+    top: 1%;
+    right: 0px;
+    background-color: transparent;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    margin-right: 0px;
+    float: right;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: #3e362e;
+    text-decoration: overline;
+}
+.head {
+    width: 100%;
+    background: url("images.portfolio/HI-background.png");
+    height: 80%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment:initial; 
+    background-clip: border-box;
+}
+.head-text {
+    color: white; 
+    text-align: center;
+    background: #ac8968;
+    transition: .3s ease-in-out;
+    margin: 10px 320px;
+    font-size: 100px;
+    font-style: italic;
+    position: absolute; 
+    top: 45%;
+}
+.hd-beg {
+    color: white
+}
+.begin {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid brown;
+    border-color: #3e362e;
+    border-radius: 25px;
+}
+.begin-text {
+    font-size: 40px;
+    color: black;
+    width: 50%;
+    background-color: #ac8968;
+    text-align: left;
+    padding: 60px 20px;
+    align-items: center;
+    border-radius: 25px;
+}
+.my-pic {
+    width: 50%;
+    border: 3px, solid white;
+    border-radius: 25px;
+}
+body {
+    font-size: 24px;
+    background-image: url("images.portfolio/bcg.webp");
+}
