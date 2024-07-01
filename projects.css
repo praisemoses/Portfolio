@@ -1,15 +1,3 @@
-.proj {
-    border: 5px solid brown;
-    border-style: groove;
-    border-color: #865d36; 
-    width: 330px;
-    background-color: #a69080;
-    text-align: center;
-    background-position: center;
-    margin: auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-}
 .my_works {
     backdrop-filter: blur(5px);
     -webkit-text-fill-color: inherit;
@@ -21,6 +9,7 @@
     justify-content: space-between;
     display: flex;
     overflow: visible;
+    margin-top: 0;
 }
 .game {
     -webkit-text-fill-color: inherit;
@@ -34,6 +23,9 @@
     flex: 1;
     display: block;
     width: 100%;
+    border: 5px solid brown;
+    border-style: double;
+    border-color: #3e362e;
 }
 .game-section {
     height: 100vh;
@@ -81,6 +73,9 @@
     flex: 1;
     display: block;
     width: 100%;
+    border: 5px solid brown;
+    border-style: double;
+    border-color: #3e362e;
 }
 .WFC-section {
     height: 100vh;
@@ -127,21 +122,31 @@
     text-align: center;
     width: 300px;
     margin: auto;
-}
-.skills {
-    display: block;
+    background-color: #865d36;
+    color: white;
 }
 .box_C {
-    display: flexbox;
+    display: block;
     justify-content: space-evenly;
     box-sizing: border-box;
+    left: 1%;
 }
 .box_E {
-    display: flexbox;
-    justify-content: space-evenly;
+    display: block;
+    justify-content: ;
     box-sizing: border-box;
-    
+}
+.skills {
+    border: 5px dotted brown;
+    position: absolute;
+    border-color: #3e362e; 
+    margin: auto;
+}
+.know_hr {
+    border-color: #865d36;
 }
 img {
     background: transparent;
-} 
+    margin-top: 1%;
+    border: 5px hidden brown;
+}

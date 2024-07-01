@@ -1,8 +1,7 @@
 .logo {
     height: 50px;
     background-color: #3e362e;
-    height: 50px;
-    margin-left: 0;
+    margin-left: .5%;
 }
 .PM {
     position: absolute;
@@ -93,12 +92,12 @@ li a:hover {
 }
 .my-pic {
     display: block;
-    width: 50%;
+    width: fit-content;
     border: 5px, solid white;
     border-color: #a69080;
     border-radius: 4px;
 }
 body {
-    font-size: 24px;
-    background-image: url("images.portfolio/bcg.webp");
+    background-image: url("images.portfolio/port_bcg.webp");
+    font: 24px;
 }

@@ -5,7 +5,7 @@
     border-radius: 10px;
     width: 250px;
     color: white;
-    background-color: #865d36;
+    background-color: #93785b;
     text-align: center;
     margin: auto;
 }
@@ -17,7 +17,7 @@
     color: white; 
     position: absolute;
     padding: 10px 15px;
-    background: #ad7947;
+    background: #ac8968;
     background-size: contain;
     font-size: 25px;
     width: 80%;
@@ -26,7 +26,7 @@
     font-style: italic;
 }
 .about_me {
-    background-image: url("images.portfolio/alt_aboutme_bcg.jpg");  
+    background-image: url("images.portfolio/aboutme_bcg.jpg");  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -35,6 +35,4 @@
     border: 5px solid burlywood;
     border-style: groove;
 }
-.body {
-    height: 100%;
-}
+
