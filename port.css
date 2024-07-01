@@ -56,43 +56,47 @@ li a:hover {
     background-position: 100%;
     background-attachment:initial; 
     background-clip: border-box;
+    border-radius: 5px;
+    
 }
 .head-text {
     color: white; 
     text-align: center;
     background: #ac8968;
-    transition: .3s ease-in-out;
-    margin: 10px 320px;
-    font-size: 100px;
+    margin: 30px 200px;
+    font-size: 50px;
     font-style: italic;
     position: absolute; 
-    top: 45%;
+    top: 35%;
+    left: 9%;
+    font-family: 'fantasy';
 }
-.hd-beg {
-    background-color: black;
+.home_hr {
+    border-color: #a69080;
 }
 .begin {
     height: 100%;
     display: flex;
-    justify-content: space-around;
-    border: 5px solid brown;
+    border: 10px solid brown;
     border-color: #3e362e;
     border-radius: 25px;
 }
 .begin-text {
     font-size: 40px;
     color: black;
-    width: 50%;
+    width: 100%;
     background-color: #ac8968;
     text-align: left;
     padding: 60px 20px;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 3px;
 }
 .my-pic {
+    display: block;
     width: 50%;
-    border: 3px, solid white;
-    border-radius: 25px;
+    border: 5px, solid white;
+    border-color: #a69080;
+    border-radius: 4px;
 }
 body {
     font-size: 24px;

@@ -1,3 +1,15 @@
+.proj {
+    border: 5px solid brown;
+    border-style: groove;
+    border-color: #865d36; 
+    width: 330px;
+    background-color: #a69080;
+    text-align: center;
+    background-position: center;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
 .my_works {
     backdrop-filter: blur(5px);
     -webkit-text-fill-color: inherit;
@@ -26,8 +38,8 @@
 .game-section {
     height: 100vh;
     object-fit: fill;
-    background-color: #3e362e;
-    opacity: .8;
+    background-color: #ac8968;
+    opacity: .85;
     display: block;
     justify-content: left;
     width: 50%;
@@ -39,9 +51,15 @@
     align-items: flex-start;
     display: flex;
     position: relative;
-    color: white; 
+    color: black; 
     padding-left: 5%;
-    padding-top: 10%;
+    padding-top: 8%;
+    stop-opacity: initial;
+    font-weight: 100;
+    font-family: cursive;
+}
+.game_link{
+    color: black;
 }
 .game-bcg {
     height: 95x;
@@ -67,7 +85,7 @@
 .WFC-section {
     height: 100vh;
     object-fit: fill;
-    background-color: #3e362e;
+    background-color: #ac8968;
     opacity: .8;
     display: block;
     float: left;
@@ -80,7 +98,14 @@
     align-items: flex-start;
     display: flex;
     position: relative;
-    color: white 
+    color: black;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-weight: 100;
+    font-family: cursive;
+}
+.WFC_link{
+    color: black;
 }
 .WFC-bcg {
     height: 50px;
@@ -90,3 +115,33 @@
     width: 50%;
     justify-content: right;
 }
+.WFC_hr {
+    border-color: #865d36;
+}
+.head_hr {
+    border-color: #865d36;
+}
+.header {
+    border: 5px groove brown;
+    border-color: #865d36;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.skills {
+    display: block;
+}
+.box_C {
+    display: flexbox;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.box_E {
+    display: flexbox;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    
+}
+img {
+    background: transparent;
+} 

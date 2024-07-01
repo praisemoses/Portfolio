@@ -7,8 +7,10 @@
     color: white;
     background-color: #865d36;
     text-align: center;
-    font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.aboutme_hr {
+    border-color: #93785b;
 }
 .text_a {
     text-align: left;
@@ -20,6 +22,8 @@
     font-size: 25px;
     width: 80%;
     margin-left: 8%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 .about_me {
     background-image: url("images.portfolio/alt_aboutme_bcg.jpg");  
@@ -27,9 +31,10 @@
     background-size: cover;
     background-position: 100%;
     margin: 0;
-    height: 90%;
+    height: 100%;
+    border: 5px solid burlywood;
+    border-style: groove;
 }
-body {
-    font-size: 24px;
-    background-image: url("images.portfolio/bcg.webp");
+.body {
+    height: 100%;
 }
