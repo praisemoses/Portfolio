@@ -21,9 +21,16 @@
     background-size: contain;
     font-size: 25px;
     width: 80%;
-    margin-left: 8%;
+    height: 70%;
+    margin-left: 5%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
+}
+.Iphone_pic {
+    margin-left: 65%;
+    margin-bottom: .5%;
+    margin-top: 5%;
+    height: 200px;
 }
 .about_me {
     background-image: url("images.portfolio/aboutme_bcg.jpg");  

@@ -82,7 +82,7 @@ li a:hover {
 }
 .begin-text {
     font-size: 40px;
-    color: black;
+    color: white;
     width: 100%;
     background-color: #ac8968;
     text-align: left;
@@ -97,7 +97,44 @@ li a:hover {
     border-color: #a69080;
     border-radius: 4px;
 }
+.LM_b {
+    width: 90px;
+    position: absolute; 
+    margin-top: 5%;
+    height: 50px;
+    background-color: #ac8968;
+    color: black;
+}
 body {
     background-image: url("images.portfolio/port_bcg.webp");
-    font: 24px;
+    font-size: 25px;
+}
+.footer {
+    margin-top: 5%;
+    background-color: #3e362e;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+}
+.whole_f {
+    display: flex; 
+    justify-content: space-between;
+}
+.foot_hr {
+    border-color: #ac8968;
+    width: 100%;
+}
+.github {
+    height: 50px;
+    width: 50px;
+    border-radius: 27px;
+    
+}
+.linkedin {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    
 }

@@ -1,7 +1,6 @@
 .my_works {
     backdrop-filter: blur(5px);
     -webkit-text-fill-color: inherit;
-    background-color: #ac8968;
     background-image: none;
     background-size: auto;
     background-clip: border-box;
@@ -10,10 +9,10 @@
     display: flex;
     overflow: visible;
     margin-top: 0;
+    margin-right: 1%;
 }
 .game {
     -webkit-text-fill-color: inherit;
-    background-color: #a69080;
     background: url("images.portfolio/Projects/Final Days.png");
     background-position: 100%;
     background-repeat: no-repeat;
@@ -33,7 +32,6 @@
     background-color: #ac8968;
     opacity: .85;
     display: block;
-    justify-content: left;
     width: 50%;
     float: right;
 }
@@ -127,20 +125,23 @@
 }
 .box_C {
     display: block;
-    justify-content: space-evenly;
     box-sizing: border-box;
-    left: 1%;
+    color: white;
+    position: absolute;
+    border: 3px dotted brown;
+    border-color: #3e362e;
+    height: 55%;
 }
 .box_E {
     display: block;
-    justify-content: ;
-    box-sizing: border-box;
+    color: white;
+    margin-left: 55%;
+    border: 3px dotted brown;
+    border-color: #3e362e;
 }
 .skills {
-    border: 5px dotted brown;
-    position: absolute;
-    border-color: #3e362e; 
-    margin: auto;
+    background-color: #865d36;
+    height: auto;
 }
 .know_hr {
     border-color: #865d36;
