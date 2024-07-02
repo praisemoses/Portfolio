@@ -1,46 +1,88 @@
 .title {
-    border: 5px groove brown; 
-    border-color: #865d36;
-    background-color: #3e362e;
+    border: 5px outset brown; 
+    border-color: #93785b;
+    background-color: #ac8968;
     color: white;
-    width: 155px;
+    width: 200px;
     text-align: center;
-    margin: auto; 
+    border-radius: 20px;
 }
 .hob_hr {
     border-color: #a69080;
 }
-.art {
-    background-color: #ac8968;
-    display: block;
+.coach {
+    background: url("images.portfolio/coach_bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: initial; 
+    background-clip: border-box;
+    width: 99%;
+    height: 50%;
+    display: flex; 
+    color: white;
+    margin: auto;
+    border: 5px ridge brown;
+    border-color: #a69080
+}
+.me_run {
+    height: 450px;
+    width: 350px;
+    border: 5px solid brown;
+    border-style: groove;
+    border-color: #93785b;
     position: relative;
+}
+.team_pic {
+    
+}
+.pictures {
+    
+}
+.track {
+   background-color: #93785b;
+
+}
+.track_text {
+    float: left;
+    width: 50%;
+}
+.art_text {
+    float: left;
+}
+.art {
+    background-image: url("images.portfolio/art_bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: initial; 
+    background-clip: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 30px;
+}
+.art_hr {
+    border-color: #93785b;
 }
 .lost {
     height: 400px;
-    width: 600px;
-    margin-left: 0;
+    width: 440px;
+    border: 3px dashed brown;
+    border-color: #a69080;
+    align-items: center;
 }
 .shoe {
-    height: 600px;
+    height: 400px;
     width: 300px;
-    margin-top: 0;
-    margin-left: 50%;
+    border: 3px dashed brown;
+    border-color: #a69080;
 }
 .color {
-   height: 400px;
-   width: 600px;
-   margin-right: 0;
-   margin-top: 2%;
-}
-.coach {
-    background: url("images.portfolio/coach_bcg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    display: flex; 
-    color: white;
-    padding: 0px 0px;
+    height: 400px;
+    width: 425px;
+    border: 3px dashed brown;
+    border-color: #a69080;
 }
 .activities {
     color: white;

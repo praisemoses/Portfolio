@@ -1,7 +1,7 @@
 .logo {
-    height: 50px;
+    height: 60px;
+    width: 45px;
     background-color: #3e362e;
-    margin-left: .5%;
 }
 .PM {
     position: absolute;
@@ -88,7 +88,7 @@ li a:hover {
     text-align: left;
     padding: 60px 20px;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 .my-pic {
     display: block;
@@ -100,7 +100,7 @@ li a:hover {
 .LM_b {
     width: 90px;
     position: absolute; 
-    margin-top: 5%;
+    margin-top: 2%;
     height: 50px;
     background-color: #ac8968;
     color: black;

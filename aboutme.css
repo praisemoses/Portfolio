@@ -1,7 +1,7 @@
 .header {
     border: 5px solid black;
     border-color: #3e362e;
-    border-style: double;
+    border-style: inset;
     border-radius: 10px;
     width: 250px;
     color: white;
@@ -21,7 +21,7 @@
     background-size: contain;
     font-size: 25px;
     width: 80%;
-    height: 70%;
+    height: 60%;
     margin-left: 5%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -37,6 +37,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
+    background-attachment: initial; 
+    background-clip: border-box;
     margin: 0;
     height: 100%;
     border: 5px solid burlywood;

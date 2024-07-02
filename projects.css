@@ -130,7 +130,7 @@
     position: absolute;
     border: 3px dotted brown;
     border-color: #3e362e;
-    height: 55%;
+    height: 54%;
 }
 .box_E {
     display: block;
@@ -148,6 +148,5 @@
 }
 img {
     background: transparent;
-    margin-top: 1%;
     border: 5px hidden brown;
 }
