@@ -156,6 +156,8 @@
     background-color: #865d36;
     height: auto;
     gap: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
 }
 .know_hr {
     border-color: #ac8968;

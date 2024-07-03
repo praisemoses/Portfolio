@@ -21,6 +21,8 @@
     padding-left: 2%;
     padding-right: 2%;
     background-color: #a69080;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 .future {
     background-image: url("images.portfolio/future_bcg.jpg");

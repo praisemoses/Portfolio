@@ -8,6 +8,7 @@
     border-radius: 20px;
     margin: auto;
     margin-top: 2%;
+    font-style: italic;
 }
 .track {
     background-image: url("images.portfolio/pic_bcg.jpg");
@@ -94,6 +95,7 @@
     border-radius: 20px;
     margin: auto;
     margin-top: 2%;
+    font-style: italic;
 }
 .art { 
     display: grid;
