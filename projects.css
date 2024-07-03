@@ -51,6 +51,9 @@
 .game_link{
     color: black;
 }
+.game_link:hover {
+    background-color: #a69080;
+}
 .game-bcg {
     height: 95x;
     object-fit: fill;
@@ -100,6 +103,9 @@
 .WFC_link{
     color: black;
 }
+.WFC_link:hover {
+    background-color: #a69080; 
+}
 .WFC-bcg {
     height: 50px;
     object-fit: fill;
@@ -109,10 +115,14 @@
     justify-content: right;
 }
 .WFC_hr {
-    border-color: #865d36;
+    border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
 }
 .head_hr {
-    border-color: #865d36;
+    border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
 }
 .header {
     border: 5px groove brown;
@@ -122,6 +132,7 @@
     margin: auto;
     background-color: #865d36;
     color: white;
+    border-radius: 20px;
 }
 .box_C {
     display: block;
@@ -131,6 +142,7 @@
     border: 3px dotted brown;
     border-color: #3e362e;
     height: 54%;
+    border-radius: 10px;
 }
 .box_E {
     display: block;
@@ -138,13 +150,17 @@
     margin-left: 55%;
     border: 3px dotted brown;
     border-color: #3e362e;
+    border-radius: 10px;
 }
 .skills {
     background-color: #865d36;
     height: auto;
+    gap: 0;
 }
 .know_hr {
-    border-color: #865d36;
+    border-color: #ac8968;
+    background-color: #3e362e;;
+    height: 3px;
 }
 img {
     background: transparent;

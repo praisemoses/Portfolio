@@ -17,21 +17,55 @@
                 <li><a href="aboutme.html"> About me </a></li>
             </ul>
         </nav>
-        <br>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <link href="port.css" rel="stylesheet" type="text/css">
         <link href="info.css" rel="stylesheet" type="text/css">
         <script class="portfolio.js"></script>
     </head>
-    <br>
     <body>
         <div class="contact" id="contact_">
             <div class="cont-header">
-                <h2 class="cont-heading"> 
-                    Contact Me!
+                <h2> 
+                    Contact me!
                 </h2>
-                <hr class="cont-hr">
             </div>
         </div>
+        <hr class="cont-hr">
+        <div class="form">
+            <div class="header">
+                <h2> 
+                    Get in touch!
+                </h2>
+            </div>
+            <form method="post">
+                <div class="name">
+                    <h3 class="head_name">
+                        Name
+                    </h3>
+                    <input type="text" id="name" name="name" required> 
+                </div>
+                <div class="phone#">
+                    <h3 class="head_phone">
+                        Phone number
+                    </h3>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="email">
+                    <h3 class="head_email">
+                        Email Address
+                    </h3>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="message">
+                    <h3 class="head-mes">
+                        Message
+                    </h3>
+                    <textarea type="message" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn" id="btn"> Submit </button>
+            </form>
+        </div>
+        <br>
         <div class="footer">
             <hr class="foot_hr">
             <div class="whole_f">

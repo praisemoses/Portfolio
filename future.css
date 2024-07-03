@@ -1,0 +1,34 @@
+.header {
+    border: 5px outset brown; 
+    border-color: #ac8968;
+    background-color: #3e362e;
+    color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+}
+.future_hr {
+    border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
+}
+.text_f {
+    height: 60%;
+    font-size: 30px;
+    color: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #a69080;
+}
+.future {
+    background-image: url("images.portfolio/future_bcg.jpg");
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: initial; 
+    background-clip: border-box;
+    border: 5px double brown;
+    border-color: #865d36;
+    height: 90%;
+}

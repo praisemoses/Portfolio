@@ -72,6 +72,8 @@ li a:hover {
 }
 .home_hr {
     border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
 }
 .begin {
     height: 100%;
@@ -123,8 +125,8 @@ body {
     justify-content: space-between;
 }
 .foot_hr {
-    border-color: #ac8968;
-    width: 100%;
+    border-color: #a69080;
+    background-color: #3e362e;;
 }
 .github {
     height: 50px;

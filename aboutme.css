@@ -8,9 +8,12 @@
     background-color: #93785b;
     text-align: center;
     margin: auto;
+    margin-top: 2%;
 }
 .aboutme_hr {
-    border-color: #93785b;
+    border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
 }
 .text_a {
     text-align: left;
@@ -22,7 +25,7 @@
     font-size: 25px;
     width: 80%;
     height: 60%;
-    margin-left: 5%;
+    margin-left: 7%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
@@ -40,8 +43,9 @@
     background-attachment: initial; 
     background-clip: border-box;
     margin: 0;
-    height: 100%;
+    height: 105%;
     border: 5px solid burlywood;
     border-style: groove;
+    border-radius: 10px;
 }
 

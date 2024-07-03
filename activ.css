@@ -6,9 +6,53 @@
     width: 200px;
     text-align: center;
     border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+}
+.track {
+    background-image: url("images.portfolio/pic_bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: initial; 
+    background-clip: border-box;
+    border-radius: 10px;
+    border: 5px outset brown;
+    border-color: #865d36;
 }
 .hob_hr {
     border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
+}
+.me_run {
+    height: 450px;
+    width: 350px;
+    border: 5px solid brown;
+    border-style: groove;
+    border-color: #93785b;
+    border-radius: 10px;
+}
+.team_pic {
+    height: 450px;
+    width: 600px;
+    border: 5px solid brown;
+    border-style: groove;
+    border-color: #93785b;
+    border-radius: 10px;
+}
+.pictures {
+    display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+    margin: auto;
+    gap: 10px;
+    margin-bottom: 2%;
+}
+.pic_hr {
+    border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
 }
 .coach {
     background: url("images.portfolio/coach_bcg.jpg");
@@ -22,48 +66,40 @@
     display: flex; 
     color: white;
     margin: auto;
-    border: 5px ridge brown;
+    border: 5px double brown;
     border-color: #a69080
 }
-.me_run {
-    height: 450px;
-    width: 350px;
-    border: 5px solid brown;
-    border-style: groove;
-    border-color: #93785b;
-    position: relative;
+.coach_hr {
+    border-color: #a69080;
+    background-color: #3e362e;;
+    height: 3px;
 }
-.team_pic {
-    
-}
-.pictures {
-    
-}
-.track {
-   background-color: #93785b;
-
-}
-.track_text {
-    float: left;
-    width: 50%;
-}
-.art_text {
-    float: left;
-}
-.art {
+.a_sec {
     background-image: url("images.portfolio/art_bcg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
     background-attachment: initial; 
-    background-clip: border-box;
+    border: 5px outset brown;
+    border-color: #ac8968;
+    border-radius: 10px;
+}
+.hdr {
+    border: 5px outset brown; 
+    border-color: #ac8968;
+    background-color: #93785b; 
+    color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+}
+.art { 
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
-    padding: 30px;
-}
-.art_hr {
-    border-color: #93785b;
+    padding: 25px;
 }
 .lost {
     height: 400px;
